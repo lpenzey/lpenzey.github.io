@@ -44,30 +44,3 @@ page '/*.txt', layout: false
 #   activate :minify_css
 #   activate :minify_javascript
 # end
-
-
-# Build-specific configuration
-configure :build do
-  # Minify CSS on build
-  # activate :minify_css
-  # Relative assets needed to deploy to Github Pages
-  # activate :relative_assets
-  # set :site_url, “/lpenzey”
-  # Minify Javascript on build
-  # activate :minify_javascript
-end
-
-# Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
-
-activate :directory_indexes
-
-set :images_dir, ‘images’
-
-# activate :blog do |blog|
-#   blog.prefix = “blog”
-# end
-
-# set :site_url, “”
