@@ -17,6 +17,7 @@ $('form').on('submit', function(e) {
         var book = {
           title: response.title,
           description: response.description,
+          authors: response.authors,
           img: response.imageLinks.thumbnail,
           preview: response.previewLink
         }
