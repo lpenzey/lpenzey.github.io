@@ -28,6 +28,11 @@
   color: white;
 }
 
+p {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 h1 {
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -54,22 +59,26 @@ ul {
   display: inline;
 }
 
+p {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 80%;
 }
 
-p {
+div.card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 .books {
   padding: 15px 0 0 0;
   margin: auto;
 }
-
-
-
